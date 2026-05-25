@@ -1,9 +1,7 @@
 def greet(name: str) -> str:
-<<<<<<< HEAD
-    return f"HELLO, {name}!"
-=======
-    return f"Привет, {name}!"
->>>>>>> 52a14061f75cb3f0700790b160e5fea7da892c85
+    return f"ПРИВЕТ, {name.upper()}!"
+
+
 
 
 if __name__ == "__main__":
