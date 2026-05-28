@@ -1,7 +1,12 @@
 # task-api
-FastAPI task manager
 
-Учебный репозиторий: Git + FastAPI.
+CRUD-сервис для управления задачами. FastAPI + Docker + автодеплой.
 
-**Автор**: Timoshenko Vladimir
-**Начало работы**: 2026-05-25
+## Локальный запуск
+
+    conda create -y -n task-api python=3.11
+    conda activate task-api
+    pip install -r requirements.txt
+    uvicorn app.main:app --reload
+
+Документация: http://localhost:8000/docs
