@@ -8,5 +8,5 @@ CRUD-сервис для управления задачами. FastAPI + Docker
     conda activate task-api
     pip install -r requirements.txt
     uvicorn app.main:app --reload
-
+llll
 Документация: http://localhost:8000/docs
