@@ -220,3 +220,7 @@ __marimo__/
 # Model artifacts
 models/*
 !models/wine_model.pkl
+
+# Quadrant vectors
+qdrant_data/
+data/corpus_chunks.jsonl
