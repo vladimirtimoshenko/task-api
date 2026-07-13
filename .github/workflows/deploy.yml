@@ -43,5 +43,5 @@ jobs:
             LLM_API_KEY=${{ secrets.LLM_API_KEY }}
             QDRANT_URL=http://qdrant:6333
             EOF
-            docker compose pull app
-            docker compose up -d app
+            git pull --ff-only
+            docker compose up -d --build api
